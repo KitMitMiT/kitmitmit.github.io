@@ -24,7 +24,7 @@ github_username:  KitMitMiT
 
 # Build settings
 markdown: kramdown
-remote_theme: pages-themes/tactile
+remote_theme: pages-themes/
 plugins:
   - jekyll-feed
   - jemoji
