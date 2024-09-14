@@ -16,7 +16,7 @@
 title: Klaas Meersman
 email: klaas.meersman@student.kuleuven.be
 description: >- # this means to ignore newlines until "baseurl:"
-  Personal website
+  Thesis site, sharing thoughts
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kitmitmit.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: /
@@ -24,7 +24,7 @@ github_username:  KitMitMiT
 
 # Build settings
 markdown: kramdown
-remote_theme: pages-themes/
+theme: minima
 plugins:
   - jekyll-feed
   - jemoji
