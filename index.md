@@ -2,7 +2,7 @@
 title: Home
 ---
 
-Thesis[contents/thesis/thesis.md]
+[Thesis](contents/thesis/thesis.md)
 
 ---
 
