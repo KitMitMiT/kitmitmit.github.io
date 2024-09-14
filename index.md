@@ -1,8 +1,8 @@
 ---
-title: Klaas Meersman
+title: Home
 ---
 
-More later
+Thesis[contents/thesis/thesis.md]
 
 ---
 

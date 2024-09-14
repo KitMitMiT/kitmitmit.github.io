@@ -36,7 +36,7 @@ kramdown:
   syntax_highlighter: coderay
 
 header_pages:
-  - index.md
+  - contents/thesis/thesis.md
   
   
 google_site_verification: "cBYpSqc17Jx3NXWnR6gz8v8d7Gs7lRmBOXAHTUqdOyM"
