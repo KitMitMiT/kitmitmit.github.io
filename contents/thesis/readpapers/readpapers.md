@@ -22,7 +22,7 @@ title: Read papers and notes
 - we decrease the size of the virtual address space
 - trade of between the size of the virtual address space and security specifications
 - the page tag will be checked while getting the information from the page table to avoid a performance overhead, as the page table will need to be accessed anyways to translate the virtual addresss to a physical address
-- if we use pseudorandom tag generation, tag colision probability on a page is 2^(-8) = 0.3%. If we use an LFSR(a list to avoid the same tag on the same page), the collision probability is 0%.
+- if we use pseudorandom tag generation, tag colision probability on a page is 2^(-8) = 0.3%. If we use an LFSR(a list to avoid the same tag twice on the same page), the collision probability is 0%.
 - neighbouring memory objects have distinct tags. So memory overflow attacks are avoided
 - tag collision probablity over the whole virtual memory address space is 2^(-8) * 2^(-16) = 0.00000596%. (note: I think this paper calculation is wrong. It depends also on the used virtual memory. But this is an ok metric to quantify security nevertheless)
 - LFSR can also be used for the page tags (this has implications that I don't fully understand)
